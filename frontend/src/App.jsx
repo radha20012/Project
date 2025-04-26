@@ -31,6 +31,7 @@ import UserProfile from './user/UserProfile';
 import BookServiceForm from './bookings/BookServiceForm'; // Updated import for booking service form
 import BookingListUser from './bookings/BookingListUser'; // Updated import for booking list
 import BookingRouterProvider from './provider/BookingRouterProvider';
+import ForgotPassword from './pages/ForgotPassword';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path='/forgot-password'element={<ForgotPassword/>}/>
 
         {/* Admin Dashboard */}
         <Route path="/admin" element={<AdminDashboard />}>

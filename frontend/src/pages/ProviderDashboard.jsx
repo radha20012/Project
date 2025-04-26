@@ -18,6 +18,7 @@ const ProviderDashboard = () => {
           <ProviderSidebar />
         </div>
         <div style={styles.mainContent}>
+          
           <Outlet />
         </div>
       </div>
